@@ -17,5 +17,6 @@ app.get('/', (req, res) => res.render('index', { title : 'Falabella Shopping Car
 //your routes
 app.get('/items', (req, res) => res.json(mock));
 
-const listener = app.listen(1337, () =>
-  console.log(`Running app on ${listener.address().address}${listener.address().port}`));
+const listener = app.listen(1337, () => {
+  console.log(`Running app on ${listener.address().address}${listener.address().port}`)
+});
