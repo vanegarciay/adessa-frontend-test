@@ -41,7 +41,7 @@ These are the business rules:
 - Each item added to the cart must have an action button to `remove item from cart`.
 
 
-Here is a demo video showing how it behave like:
+Here is a demo video showing how the application should behave when finished:
 
 [demo video][demo]
 
