@@ -2,7 +2,7 @@
 
 - [Minimum requirements](#minimum-requirements)
 - [Running the Application](#running-the-application)
-- [Test description](#test-description)
+- [Test instructions](#test-instructions)
 
 
 ## Minimum requirements
@@ -12,44 +12,44 @@
 
 ## Running the Application
 
-- Running Express Application
+- Running the Express Application
 
 ```shell
 $ npm run dev
 ```
 
-- Running frontend application with webpack
+- Running the frontend application with webpack
 
 ```shell
 $ npm run webpack
 ```
 
 
-## Test description
+## Test Instructions
 
-It is required to implement a simple shopping cart.
+The goal of this test is to implement a simple, working shopping cart.
 
 It must have two important sections:
 
-- An Item list showing the product catalog
-- Basket list, having all the items which are going to be purchased by the user.
+- An Item list, showing a catalog of products that can be added to the cart
+- A Cart list, which contains all the items that are going to be purchased by the user.
 
 These are the business rules:
 
-- Each catalog item must have an action button to `add item to cart`.
+- Each item in the catalog list must have an action button to `add item to cart`.
 
-- Each cart item must have an action button to `remove item from cart`.
+- Each item added to the cart must have an action button to `remove item from cart`.
 
 
-Here is the demo showing how it behave like:
+Here is a demo video showing how the application should behave when finished:
 
 [demo video][demo]
 
-### Bonus points
+### Bonus points if
 
-- Use redux as state manager.
-- Favor using map, filter, reduce, forEach.
-- Favor using functional components in your application.
+- The application state is managed with Redux.
+- There is an adequate use of the map, filter, reduce, forEach methods.
+- The use of functional components is favored in your application.
 
 [nodejs]: https://nodejs.org/en/download/
 [demo]: https://www.dropbox.com/s/t6k4oypu2kg3h40/adessa-demo-video.mp4
