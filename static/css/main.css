@@ -1,1 +1,45 @@
 /* you can add any styles you think could improve user's experience */
+#contenedor_productos {
+    background: #F1E3D8;
+    padding: 1em;
+}
+.producto_individual:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.producto_individual {
+    transition: 0.3s;
+    background: #fff;
+    border-radius: 0.5em;
+    text-align: center;
+}
+
+.producto_individual img {
+    border: 3px solid #555;
+    margin-bottom: 1em;
+}
+
+.producto_info {
+    text-align: left;
+    padding: 0.5em;
+}
+
+button.agregar, button.remover {
+    background: #592B9B;
+    border: none;
+    margin: 0 1em 1em 0.5em;
+}
+
+button.agregar:hover, button.remover:hover {
+    background: #50A139;
+    transition: 0.2s;
+}
+
+#carrito {
+    text-align: center;
+}
+
+.lista_productos p {
+    font-weight: bold;
+}

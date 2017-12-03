@@ -3,12 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <title>Document</title>
+    <title>Falabella Shopping Cart</title>
     <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 </head>
 <body>
     <h1 style="text-align: center">{{ title }}</h1>
     <section id="app"></section>
+    <!-- total compra -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <button type="button" class="btn btn-success">TOTAL: $ <span id="total">0</span></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Final total compra -->
+    <!-- carrito -->
+    <section>
+        <div class="container">
+            <div class="d-flex justify-content-center" id="carrito">
+            </div>
+        </div>
+    </section>
+    <!-- fin carrito -->
+    <!-- lista de productos -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 lista_productos">
+                    <p>Product List</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin lista de productos -->
+    <!-- productos -->
+    <section id="contenedor_productos">
+        <div class="container">
+            <div class="d-flex justify-content-between" id="productos">
+            </div>
+        </div>
+    </section>
+    <!-- fin productos -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="/static/js/main.js"></script>
     <script src="/static/js/main.bundle.js"></script>
 </body>
 </html>
